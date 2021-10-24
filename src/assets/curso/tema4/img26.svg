@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64.817" height="45.667" viewBox="0 0 64.817 45.667">
+  <defs>
+    <filter id="Trazado_138025">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g data-type="innerShadowGroup">
+    <path id="Trazado_138025-2" data-name="Trazado 138025" d="M269.462,170.131a8.144,8.144,0,0,0-5.73-5.768C258.677,163,238.408,163,238.408,163s-20.269,0-25.324,1.363a8.144,8.144,0,0,0-5.73,5.768c-1.355,5.087-1.355,15.7-1.355,15.7s0,10.615,1.355,15.7a8.144,8.144,0,0,0,5.73,5.768c5.055,1.363,25.324,1.363,25.324,1.363s20.269,0,25.324-1.363a8.144,8.144,0,0,0,5.73-5.768c1.354-5.087,1.354-15.7,1.354-15.7S270.817,175.218,269.462,170.131Zm-37.683,25.34V176.2l16.941,9.638Z" transform="translate(-206 -163)" fill="#fff"/>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Trazado_138025)">
+      <path id="Trazado_138025-3" data-name="Trazado 138025" d="M269.462,170.131a8.144,8.144,0,0,0-5.73-5.768C258.677,163,238.408,163,238.408,163s-20.269,0-25.324,1.363a8.144,8.144,0,0,0-5.73,5.768c-1.355,5.087-1.355,15.7-1.355,15.7s0,10.615,1.355,15.7a8.144,8.144,0,0,0,5.73,5.768c5.055,1.363,25.324,1.363,25.324,1.363s20.269,0,25.324-1.363a8.144,8.144,0,0,0,5.73-5.768c1.354-5.087,1.354-15.7,1.354-15.7S270.817,175.218,269.462,170.131Zm-37.683,25.34V176.2l16.941,9.638Z" transform="translate(-206 -163)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
