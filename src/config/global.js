@@ -90,142 +90,121 @@ export default {
   },
   referencias: [
     {
+      referencia: 'Blender. (2021). Blender 2.93 Reference Manual.',
+      link: 'https://docs.Blender.org/manual/es/2.93',
+    },
+    {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA: ',
+        'Hemel, J. (2021). Blender Secrets (1st ed.). Jan van den Hemel. Sculpting — Blender Manual. (2021).',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://docs.Blender.org/manual/es/2.93/sculpt_paint/sculpting/index.html ',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA: ',
+        'GameDevTraum (2021). Cómo exportar un modelo 3D en formato FBX con Texturas en Blender.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
-    },
-    {
-      referencia:
-        'Harpersbazaar. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
-    },
-    {
-      referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA. ',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
-    },
-    {
-      referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
-    },
-    {
-      referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'https://gamedevtraum.com/es/Blender-2-8/como-exportar-modelo-con-textura-de-Blender-a-unity/',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Cóncava',
+      terminoHtml: 'Cóncava',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Se usa para describir una superficie que tiene una curvatura hacia adentro, presentándose más hundida o deprimida en la parte central que en las orillas.',
     },
     {
-      termino: 'Suftware',
-      terminoHtml: '<em>Suftware</em>',
+      termino: 'Dieléctricos',
+      terminoHtml: 'Dieléctricos',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Se refiere a objetos hechos de materiales con baja conductividad eléctrica por lo cual pueden ser utilizados como aislantes.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Especular',
+      terminoHtml: 'Especular',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'Hace referencia a la manera en que los rayos de luz se reflejan en una dirección predominante con el mismo ángulo con el que inciden en el objeto.',
     },
     {
-      termino: 'Áectores',
-      terminoHtml: '<em>Áectores</em>',
+      termino: 'Highpoly',
+      terminoHtml: 'Highpoly',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Objeto con alta densidad poligonal, suele usarse para esculpido digital, y para la creación de normal maps, no es óptimo para animación',
     },
     {
-      termino: 'Moda',
+      termino: 'Lowpoly',
+      terminoHtml: 'Lowpoly',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'Objeto con baja densidad poligonal, conveniente para usarse en animación ',
     },
     {
-      termino: 'DIseño',
+      termino: 'Nodos',
+      terminoHtml: 'Nodos',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Son un conjunto de comandos que permiten la creación y generación de texturas en función de los criterios y parámetros que se especifiquen.',
     },
     {
-      termino: 'Diseña',
+      termino: 'Normal map',
+      terminoHtml: 'Normal map',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Técnica de generar relieve a partir de las sombras de las texturas, generando profundidad y simulación de alto poligonaje.',
     },
     {
-      termino: 'Tipología',
+      termino: 'Oclusión',
+      terminoHtml: 'Oclusión',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'Se refiere a aquellas áreas y rincones en los que la luz no debería estar presente o llega de manera indirecta ocasionando que se generen sombras sobre estas.',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Pixel',
+      terminoHtml: 'Pixel',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'Es la más pequeña de las unidades homogéneas en color que componen una imagen reproducida digitalmente o que podemos ver en la pantalla de cualquier dispositivo electrónico.',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Props',
+      terminoHtml: 'Props',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Son todos aquellos elementos y accesorios que hacen parte de una escena, excluyendo a los personajes, el escenario y el vestuario; los cuales sirven para dar autenticidad y lograr el ambiente requerido en cada escena.',
     },
     {
-      termino: 'Interseccionalidad',
+      termino: 'Renderizado',
+      terminoHtml: 'Renderizado',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Es el proceso de generar una imagen fotorrealista desde un modelo 3D, de manera que el ordenador interpreta la escena en tres dimensiones y la plasma en una imagen bidimensional.',
     },
     {
-      termino: 'Interés superior del menor',
+      termino: 'Rugosidad',
+      terminoHtml: 'Rugosidad',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Es una propiedad en la que se presentan un mayor o menor número de irregularidades o asperezas en la superficie de un material.',
+    },
+    {
+      termino: 'Subdivisiones',
+      terminoHtml: 'Subdivisiones',
+      significado:
+        'Permite a una malla de baja cantidad de polígonos, subdividir estos elementos en más cantidad, lo que permite un mejor detalle. ',
+    },
+    {
+      termino: 'Textura',
+      terminoHtml: 'Textura',
+      significado:
+        'Forma en que se representa la superficie de un material a través de una composición de capas que poseen múltiples efectos con el fin de generar una sensación táctil o visual..',
+    },
+    {
+      termino: 'UV mapping',
+      terminoHtml: 'UV mapping',
+      significado:
+        'Es el traspaso de información de un objeto 3D a un objeto 2D. ',
     },
   ],
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
+        'GaryBricks3D. (2020). Blender 2.8 Cómo lograr efecto caricatura (toon shading).',
       tipo: 'Video',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
-    },
-    {
-      texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+      link:
+        'https://www.youtube.com/watch?v=hyhUW1Jjsns&ab_channel=GaryBricks3D',
     },
   ],
   creditos: {
