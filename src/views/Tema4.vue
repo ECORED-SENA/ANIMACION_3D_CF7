@@ -235,7 +235,7 @@
 
     .row.justify-content-center.mb-5  
       .col-lg-8
-        .tarjeta.color-primario.p-3.mb-5
+        .tarjeta.color-primario.p-3.mb-5.tema5-div2
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1
               img(src="@/assets/curso/tema4/img26.svg")
