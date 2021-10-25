@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Texturizado',
     descripcionCurso:
-      'Este componente trabaja sobre las técnicas de texturizado de los elementos 3D, el Bakeo de mapas, a partir de los shaders y de la geometría de alto poligonaje a un low poly. Así mismo, sobre los tipos de shaders, y los elementos de exportación. ',
+      'Este componente trabaja sobre las técnicas de texturizado de los elementos 3D, el <i>Bakeo</i> de mapas, a partir de los <i><i>shader</i>s</i> y de la geometría de alto poligonaje a un <i>low</i> <i>poly</i>. Así mismo, sobre los tipos de <i><i>shader</i>s</i>, y los elementos de exportación. ',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
@@ -31,7 +31,7 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Backeo de mapas',
+        titulo: '<i>Backeo</i> de mapas',
         desarrolloContenidos: true,
         subMenu: [],
       },
@@ -39,7 +39,8 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Tipos de Texturizado (Hand painted, PBR) LookDev',
+        titulo:
+          'Tipos de Texturizado (<i>Hand</i> <i>painted</i>, <i>PBR</i>) <i>LookDev</i>',
         desarrolloContenidos: true,
         subMenu: [],
       },
@@ -47,7 +48,7 @@ export default {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'Shading',
+        titulo: '<i>Shading</i>',
         desarrolloContenidos: true,
         subMenu: [],
       },
@@ -90,20 +91,21 @@ export default {
   },
   referencias: [
     {
-      referencia: 'Blender. (2021). Blender 2.93 Reference Manual.',
-      link: 'https://docs.Blender.org/manual/es/2.93',
+      referencia:
+        '<i>Blender</i>. (2021).  <i>Blender</i> 2.93 Reference Manual.',
+      link: 'https://docs. <i>Blender</i>.org/manual/es/2.93',
     },
     {
       referencia:
-        'Hemel, J. (2021). Blender Secrets (1st ed.). Jan van den Hemel. Sculpting — Blender Manual. (2021).',
+        'Hemel, J. (2021).  <i>Blender</i> Secrets (1st ed.). Jan van den Hemel. Sculpting —  <i>Blender</i> Manual. (2021).',
       link:
-        'https://docs.Blender.org/manual/es/2.93/sculpt_paint/sculpting/index.html ',
+        'https://docs. <i>Blender</i>.org/manual/es/2.93/sculpt_paint/sculpting/index.html ',
     },
     {
       referencia:
-        'GameDevTraum (2021). Cómo exportar un modelo 3D en formato FBX con Texturas en Blender.',
+        'GameDevTraum (2021). Cómo exportar un modelo 3D en formato FBX con Texturas en  <i>Blender</i>.',
       link:
-        'https://gamedevtraum.com/es/Blender-2-8/como-exportar-modelo-con-textura-de-Blender-a-unity/',
+        'https://gamedevtraum.com/es/ <i>Blender</i>-2-8/como-exportar-modelo-con-textura-de- <i>Blender</i>-a-unity/',
     },
   ],
   glosario: [
@@ -126,10 +128,10 @@ export default {
         'Hace referencia a la manera en que los rayos de luz se reflejan en una dirección predominante con el mismo ángulo con el que inciden en el objeto.',
     },
     {
-      termino: 'Highpoly',
-      terminoHtml: 'Highpoly',
+      termino: '<i>Highpoly<i>',
+      terminoHtml: '<i>Highpoly<i>',
       significado:
-        'Objeto con alta densidad poligonal, suele usarse para esculpido digital, y para la creación de normal maps, no es óptimo para animación',
+        'Objeto con alta densidad poligonal, suele usarse para esculpido digital, y para la creación de  <i>normal map</i>s, no es óptimo para animación',
     },
     {
       termino: 'Lowpoly',
@@ -144,8 +146,8 @@ export default {
         'Son un conjunto de comandos que permiten la creación y generación de texturas en función de los criterios y parámetros que se especifiquen.',
     },
     {
-      termino: 'Normal map',
-      terminoHtml: 'Normal map',
+      termino: ' <i>Normal map</i>',
+      terminoHtml: ' <i>Normal map</i>',
       significado:
         'Técnica de generar relieve a partir de las sombras de las texturas, generando profundidad y simulación de alto poligonaje.',
     },
@@ -201,7 +203,7 @@ export default {
   complementario: [
     {
       texto:
-        'GaryBricks3D. (2020). Blender 2.8 Cómo lograr efecto caricatura (toon shading).',
+        'GaryBricks3D. (2020).  <i>Blender</i> 2.8 Cómo lograr efecto caricatura (toon <i><i>shadin</i>g</i>).',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=hyhUW1Jjsns&ab_channel=GaryBricks3D',
