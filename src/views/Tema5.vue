@@ -8,6 +8,9 @@
         span 5
       h1 Tipos de archivo y Exportación
 
+    div.BorTit.mb-3
+      p.mb-0 <b>Figura 8</b>
+      i FBX
     .row.justify-content-center.tema5-div1.pt-5.mb-5
       .col-10
         img.mb-5(src="@/assets/curso/tema5/img01.png")
@@ -25,7 +28,7 @@
       .row.justify-content-center
         .col-8
           div.BorTit.mb-3
-            p.mb-0 <b>Figura 8</b>
+            p.mb-0 <b>Figura 9</b>
             i FBX
           figure
             img(src='@/assets/curso/tema5/img02.png')
@@ -36,13 +39,13 @@
       div.ms-3.d-flex.align-items-center
         h2.my-0.py-0 <i>Wavefront</i> (.Obj) 
 
-    p.mb-5 El formato OBJ es estándar en la industria, sin embargo, solo tiene geometría básica y soporte de material, además mantiene la información del uv <i>Mapping</i>, este formato nos sirve para exportar e importar modelos con altas o bajas geometrías. el cual puede ser leído en <i>software</i>s como <i>Autodesk</i> 3D Max, Cinema 4D, Maya, <i>Wings</i> 3D y motores como <i>Unity</i> 3D, <i>unreal engine</i>, y <i>software</i>s de ilustración como  <i>Krita</i> , <i>Photoshop</i>, incluso en <i>After effects</i>, como se muestra en la figura 9. Cuando exportemos el objeto, primero debemos seleccionarlo, ir a <i>File, Export</i>, <i>Wavefront</i> (.obj) seleccionar, <i>selection only</i> y <i>OBJ Objects</i>.
+    p.mb-5 El formato OBJ es estándar en la industria, sin embargo, solo tiene geometría básica y soporte de material, además mantiene la información del uv <i>Mapping</i>, este formato nos sirve para exportar e importar modelos con altas o bajas geometrías. el cual puede ser leído en <i>software</i>s como <i>Autodesk</i> 3D Max, Cinema 4D, Maya, <i>Wings</i> 3D y motores como <i>Unity</i> 3D, <i>unreal engine</i>, y <i>software</i>s de ilustración como  <i>Krita</i> , <i>Photoshop</i>, incluso en <i>After effects</i>, como se muestra en la figura 10. Cuando exportemos el objeto, primero debemos seleccionarlo, ir a <i>File, Export</i>, <i>Wavefront</i> (.obj) seleccionar, <i>selection only</i> y <i>OBJ Objects</i>.
 
     div.imagen-fondo.mb-5(:style="{'background-image': `url(${require('@/assets/curso/tema5/img03.png')})`}")
       .row.justify-content-center.mb-5
         .col-3
           div.BorTit.mb-3
-            p.mb-0 <b>Figura 9</b>
+            p.mb-0 <b>Figura 10</b>
             i OBJ
           figure
             img(src='@/assets/curso/tema5/img04.png')
@@ -61,13 +64,13 @@
         div.ms-3.d-flex.align-items-center
           h2.my-0.py-0 Exportación desde la UV
 
-      p.mb-4 Desde las <i>UV</i> podemos guardar las imágenes como png, vvg y eps, lo cual se puede hacer desde el uv editor, tener seleccionado el objeto que contiene su uv en modo Edición, luego ir a uv y exportar uv <i>Layout</i>.
+      p.mb-4 Desde las <i>UV</i> podemos guardar las imágenes como png, svg y eps, lo cual se puede hacer desde el uv editor, tener seleccionado el objeto que contiene su uv en modo Edición, luego ir a uv y exportar uv <i>Layout</i>.
       p.mb-0 Los PNG son el formato por defecto de  <i>Blender</i>, este formato tiene como característica, que puede guardar la información de transparencia, si es el caso que se use, esto con la finalidad de post producir la imagen, y poder hacer montajes con ella. A diferencia de los JPG que mantienen siempre la imagen completa, así el objeto renderizado tenga transparencias.
 
     .row.justify-content-center.mb-5
       .col-8
         div.BorTit.mb-3
-          p.mb-0 <b>Figura 10</b>
+          p.mb-0 <b>Figura 11</b>
           i Exportación desde <i>UV</i> editor
         figure
           img(src='@/assets/curso/tema5/img05.png')

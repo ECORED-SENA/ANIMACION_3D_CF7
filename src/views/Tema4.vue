@@ -57,7 +57,7 @@
 
       div(numero="2" titulo="<i>Diffuse</i> BSDF")
         p.mb-4 Un difuso permite dotar a un objeto de color, ajustando el tono, los valores y la situación del mismo, este se puede observar gracias a la incidencia de la luz directa sobre el objeto.
-        p.mb-5 En la imagen se puede ver como el objeto tintura de azul en un entorno de color blanco, mantiene su tonalidad
+        p.mb-5 En la imagen se puede ver como el objeto tintura de azul en un entorno de color blanco, mantiene su tonalidad.
         .row.justify-content-center.mb-5
           .col-lg-9
             figure
@@ -83,7 +83,7 @@
               img(src='@/assets/curso/tema4/img08.png')
 
       div(numero="5" titulo="<i>Glossy</i> BSDF")
-        p.mb-5 A diferencia del <i>shader</i> glass que deja atravesar la luz, el glossy permite generar reflejos, que usualmente se pueden usar en objetos metálicos o espejos.
+        p.mb-5 A diferencia del <i>shader</i> glass que deja atravesar la luz, el <i>glossy</i> permite generar reflejos, que usualmente se pueden usar en objetos metálicos o espejos.
         .row.justify-content-center.mb-5
           .col-lg-9
             figure
@@ -148,7 +148,7 @@
 
       .row.justify-content-center.mb-5
         .col-lg-10
-          p.mb-0 El nodo <i>Principled</i> BSDF está compuesto por una serie de slots a los que podemos añadir texturas especialmente preparadas. Las texturas pueden ser para el Color, <i>Ambient</i> <i>Occlusion</i>,  <i>Roughness</i>, Metallic, Specular, Normal o <i>Displacement</i>, como se aprecia a continuación:
+          p.mb-0 El nodo <i>Principled</i> BSDF está compuesto por una serie de <i>slots</i> a los que podemos añadir texturas especialmente preparadas. Las texturas pueden ser para el Color, <i>Ambient</i> <i>Occlusion</i>,  <i>Roughness</i>, <i>Metallic</i>, <i><i>Specular</i></i>, Normal o <i>Displacement</i>, como se aprecia a continuación:
 
     LineaTiempoD.color-primario.tema3-linea.mb-5
       div(numero="1" titulo="<i>Principled</i> <i>hair</i> BSDF ")
@@ -166,7 +166,7 @@
               img(src='@/assets/curso/tema4/img17.png')
 
       div(numero="3" titulo="<i>Refraction</i>")
-        p.mb-5 Se usa para agregar refracción brillante al <i>shader</i> glossy con distribución nítida. Es usado para materiales que transmiten luz, debe usarse en conjunto con nodos brillantes, crea en el objeto una refracción facetada. Como se observa en la imagen el tono rojo es gracias al elemento de refracción.  
+        p.mb-5 Se usa para agregar refracción brillante al <i>shader</i> <i>glossy</i> con distribución nítida. Es usado para materiales que transmiten luz, debe usarse en conjunto con nodos brillantes, crea en el objeto una refracción facetada. Como se observa en la imagen el tono rojo es gracias al elemento de refracción.  
         .row.justify-content-center.mb-5
           .col-lg-3
             figure
@@ -227,7 +227,7 @@
         p.mb-0 El <i>Shading</i>: <b><i>Outline</i> tipo toon</b>, en  <i>Blender</i> permite que podamos generar un tipo de visualización que asemeja a los cartoons, para esto, se pueden utilizar los diferentes parámetros y nodos y crear el resultado que se ve en las imágenes que están disponibles en el documento que se encuentra a continuación, en donde se ofrecen los pasos necesarios para obtener ese estilo visual.
       .col-lg-3.d-flex.align-items-center
         div
-          a.anexo(:href="obtenerLink('/downloads/<i>shader</i> toon.pdf')" target="_blank" style="width:100%")
+          a.anexo(:href="obtenerLink('/downloads/shader_toon.pdf')" target="_blank" style="width:100%")
             .anexo__icono
               img(src="@/assets/template/icono-pdf.svg")
             .anexo__texto

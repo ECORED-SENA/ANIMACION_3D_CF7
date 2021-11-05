@@ -93,19 +93,19 @@ export default {
     {
       referencia:
         '<i>Blender</i>. (2021).  <i>Blender</i> 2.93 Reference Manual.',
-      link: 'https://docs. <i>Blender</i>.org/manual/es/2.93',
+      link: 'https://docs.Blender.org/manual/es/2.93',
     },
     {
       referencia:
         'Hemel, J. (2021).  <i>Blender</i> Secrets (1st ed.). Jan van den Hemel. Sculpting —  <i>Blender</i> Manual. (2021).',
       link:
-        'https://docs. <i>Blender</i>.org/manual/es/2.93/sculpt_paint/sculpting/index.html ',
+        'https://docs.Blender.org/manual/es/2.93/sculpt_paint/sculpting/index.html ',
     },
     {
       referencia:
         'GameDevTraum (2021). Cómo exportar un modelo 3D en formato FBX con Texturas en  <i>Blender</i>.',
       link:
-        'https://gamedevtraum.com/es/ <i>Blender</i>-2-8/como-exportar-modelo-con-textura-de- <i>Blender</i>-a-unity/',
+        'https://gamedevtraum.com/es/Blender-2-8/como-exportar-modelo-con-textura-de-Blender-a-unity/',
     },
   ],
   glosario: [
@@ -128,7 +128,7 @@ export default {
         'Hace referencia a la manera en que los rayos de luz se reflejan en una dirección predominante con el mismo ángulo con el que inciden en el objeto.',
     },
     {
-      termino: '<i>Highpoly<i>',
+      termino: 'Highpoly',
       terminoHtml: '<i>Highpoly<i>',
       significado:
         'Objeto con alta densidad poligonal, suele usarse para esculpido digital, y para la creación de  <i>normal map</i>s, no es óptimo para animación',
@@ -146,8 +146,8 @@ export default {
         'Son un conjunto de comandos que permiten la creación y generación de texturas en función de los criterios y parámetros que se especifiquen.',
     },
     {
-      termino: ' <i>Normal map</i>',
-      terminoHtml: ' <i>Normal map</i>',
+      termino: 'Normal map',
+      terminoHtml: '<i>Normal map</i>',
       significado:
         'Técnica de generar relieve a partir de las sombras de las texturas, generando profundidad y simulación de alto poligonaje.',
     },
@@ -222,7 +222,35 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Johnier Felipe Perafán',
+        cargo: 'Experto Temático',
+        centro:
+          'Centro de Servicios y Gestión Empresarial - Regional Antioquia',
+      },
+      {
+        nombre: 'Fabián Andrés Gómez Pico',
+        cargo: 'Experto Temático',
+        centro:
+          'Centro de Servicios y Gestión Empresarial - Regional Antioquia',
+      },
+      {
+        nombre: 'María Inés Machado López',
+        cargo: 'Diseñadora Instruccional',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Andrés Felipe Velandia Espitia',
+        cargo: 'Revisor Metodológico y Pedagógico',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Sandra Patricia Hoyos Sepúlveda',
+        cargo: 'Revisión y corrección de estilo',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital ',
       },
     ],
     desarrolloProducto: [
@@ -230,43 +258,60 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios  - Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
-        cargo: 'Diseño web',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
+        nombre: 'Gilberto Junior Rodriguez Rodriguez',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura- Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Víctor Raúl Cárdenas Cáceres      ',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Caceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura- Regional Santander',
+      },
+      {
+        nombre: 'Zuleidy Maria Ruiz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Andres Mauricio Santaella Ochoa',
+        cargo: 'Soporte front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura- Regional Santander',
+      },
+      {
+        nombre: 'Edgar Mauricio Cortés García',
+        cargo: 'Desarrollo front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Rafael Augusto Mantilla Lopez',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
     ],
   },

@@ -15,7 +15,7 @@
         .col-lg-10
           .tema3.cajon.color-acento-contenido.py-4.px-5
             p.mb-4.px-2 Los objetos <b>3D texturizados</b> son entidades que poseen tanto geometría como datos de imagen <b>3D</b> en cada cara mostrada. 
-            p.mb-0.px-2 Entre los ejemplos de objetos <b>3D texturizados</b> se incluyen edificios, aviones, mobiliario urbano y vehículos. Por lo general, se utilizan para agregar foto realismo a una vista <b>3D</b>.
+            p.mb-0.px-2 Entre los ejemplos de objetos <b>3D texturizados</b> se incluyen edificios, aviones, mobiliario urbano y vehículos. Por lo general, se utilizan para agregar <i>fotorealismo</i> a una vista <b>3D</b>.
 
       .row.justify-content-center  
         .col-lg-11
@@ -45,7 +45,7 @@
                     figure
                       img(src='@/assets/curso/tema3/img03.png')
                   .col-lg-7.d-flex.align-items-center
-                    p Las texturas gráficas se pueden capturar a través de una cámara fotográfica, un escáner, o recrearlos en papel a través de pintura u otros elementos, que posteriormente pueden ser capturados para ser digitalizados. Otra forma es una representación virtual del mundo real, realizados a través de <i>software</i> 2D o 3D, en la que se simulan formas geométricas, orgánicas, naturales y artificiales, con la finalidad de aplicarlas en diferentes elementos, como personajes, escenarios, props, entre otros. Dotándolos de mayor credibilidad y acercamiento al mundo real. 
+                    p Las texturas gráficas se pueden capturar a través de una cámara fotográfica, un escáner, o recrearlos en papel a través de pintura u otros elementos, que posteriormente pueden ser capturados para ser digitalizados. Otra forma es una representación virtual del mundo real, realizados a través de <i>software</i> 2D o 3D, en la que se simulan formas geométricas, orgánicas, naturales y artificiales, con la finalidad de aplicarlas en diferentes elementos, como personajes, escenarios, <i><i>props</i></i>, entre otros. Dotándolos de mayor credibilidad y acercamiento al mundo real. 
 
             .row.justify-content-center   
               .col-lg-10
@@ -93,9 +93,8 @@
         div.ms-3.d-flex.align-items-center
           h2.my-0.py-0 Mapas de texturas
 
-      p.mb-4 Los mapas de texturas son simplemente imágenes en 2D que se proyectan sobre un modelo 3D con el fin de darle una apariencia específica y más realista usando cualquier <i>software</i> 3D, ya que todos tienen la capacidad de interpretar imágenes bidimensionales. Existen 7 mapas de textura o propiedades, más comunes usados al momento de crear texturas: el mapa difuso, de desplazamiento (<i>height maps</i>) normal, especular, metallic,  <i>roughness</i>, y <i>ambient</i> <i>occlussion</i>, los cuales brindan una sensación tan parecida al modelo que es casi palpable, ya que a través de estos es posible simular distintos volúmenes, relieves, luces y sombras.
-      p.mb-5 El mapeado de texturas establece cómo se sitúa la textura sobre el objeto al momento de proyectarse. Algunas texturas son tridimensionales y por lo general no necesitan un mapeo detallado ya que no se verán exactamente deformaciones o imperfectos.
-
+      p.mb-4 Los mapas de texturas son simplemente imágenes en 2D que se proyectan sobre un modelo 3D con el fin de darle una apariencia específica y más realista usando cualquier <i>software</i> 3D, ya que todos tienen la capacidad de interpretar imágenes bidimensionales. Existen 7 mapas de textura o propiedades, más comunes usados al momento de crear texturas: el mapa difuso, de desplazamiento (<i>height maps</i>) normal, especular, metallic,  <i>roughness</i>, y <i>ambient</i> <i><i>occlussion</i></i>, los cuales brindan una sensación tan parecida al modelo que es casi palpable, ya que a través de estos es posible simular distintos volúmenes, relieves, luces y sombras.      
+      p.mb-4 Podremos tener un mayor acercamiento y explicación a estos mapas a continuación: p.mb-5 El mapeado de texturas establece cómo se sitúa la textura sobre el objeto al momento de proyectarse. Algunas texturas son tridimensionales y por lo general no necesitan un mapeo detallado ya que no se verán exactamente deformaciones o imperfectos.
       p.text-center.mb-4 <b>Los utilizados son:</b>
 
       LineaTiempoD.color-primario.tema3-linea
@@ -107,7 +106,7 @@
                 img(src='@/assets/curso/tema3/img08.png')
 
         div(numero="2" titulo="Mapa normal ( <i>Normal map</i>)")
-          p.mb-5 Anteriormente se conocía como <i>Bump Map</i>, sin embargo, ha evolucionado y es considerado como uno de los más importantes al detallar un modelo ya que brinda la ilusión de profundidad y volumen a través del uso de luces y sombras para la creación de relieves falsos sin necesidad de añadir más geometría (lo cual lo haría más pesado). Esto depende de la luz, solo puede ser usado para detalles ligeros ya que, si se gira la cámara o se cambia el ángulo de iluminación, se puede perder de vista el efecto logrado. Es un mapa de base color violeta, que presenta una combinación de tres colores, que controlan los ángulos en cada uno de los ejes, rojo o red (R) para X, verde o green (G) para Y, azul o blue (B) para Z; que indican la dirección en que rebota la luz sobre el objeto, almacenando esta información en cada pixel para producir los falsos relieves.
+          p.mb-5 Anteriormente se conocía como <i>Bump Map</i>, sin embargo, ha evolucionado y es considerado como uno de los más importantes al detallar un modelo ya que brinda la ilusión de profundidad y volumen a través del uso de luces y sombras para la creación de relieves falsos sin necesidad de añadir más geometría (lo cual lo haría más pesado). Esto depende de la luz, solo puede ser usado para detalles ligeros ya que, si se gira la cámara o se cambia el ángulo de iluminación, se puede perder de vista el efecto logrado. Es un mapa de base color violeta, que presenta una combinación de tres colores, que controlan los ángulos en cada uno de los ejes, rojo o <i>red</i> (R) para X, verde o <i>green</i> (G) para Y, azul o <i>blue</i> (B) para Z; que indican la dirección en que rebota la luz sobre el objeto, almacenando esta información en cada pixel para producir los falsos relieves.
           .row.justify-content-center.mb-5
             .col-lg-9
               figure
@@ -127,7 +126,7 @@
               figure
                 img(src='@/assets/curso/tema3/img11.png')
 
-        div(numero="5" titulo="Mapa Especular (Specular Map)")
+        div(numero="5" titulo="Mapa Especular (<i>Specular</i> Map)")
           p.mb-5 También conocido como <i>Gloss</i> <i>Map</i>, es el inverso del  <i>Roughness</i> <i>Map</i>; determina la cantidad de luz que se puede reflejar sobre la superficie de nuestro modelo dependiendo de qué tan suave o lisa sea esta. Sirve principalmente para definir la intensidad del brillo en las superficies que no son metálicas.
           .row.justify-content-center.mb-5
             .col-lg-8
@@ -141,7 +140,7 @@
               figure
                 img(src='@/assets/curso/tema3/img13.png')
 
-        div(numero="7" titulo="Oclusión Ambiental (<i>Ambient</i> Occlussion)")
+        div(numero="7" titulo="Oclusión Ambiental (<i>Ambient</i> <i>Occlussion</i>)")
           p.mb-5 Es un mapa en escala de grises que determina las uniones y las partes cóncavas en el modelo, en donde la luz no llega de manera directa, sino de forma tenue, oscureciendo dichas zonas, con el fin de crear efectos de sombra que aportan mayor realismo al objeto.
           .row.justify-content-center.mb-5
             .col-lg-8
@@ -160,7 +159,7 @@
       
     .row.justify-content-center
       .col-lg-5
-        a.anexo(:href="obtenerLink('/downloads/procedural <i>texture</i>s.pdf')" target="_blank")
+        a.anexo(:href="obtenerLink('/downloads/procedural_textures.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto

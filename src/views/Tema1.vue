@@ -8,10 +8,10 @@
         span 1
       h1 Herramientas de texturizado 
 
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g-inv.bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5    
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema1/img01.png')})`}"
-      )
+      )  
       .bloque-texto-g__texto.p-4        
         br
         br
@@ -19,6 +19,7 @@
         br
         br
         br
+      
 
     div.d-flex.mb-4
       div.d-flex.align-items-center
@@ -35,7 +36,7 @@
 
     .row.justify-content-center.mb-5
       .col-lg-6
-        a.anexo(:href="obtenerLink('/downloads/texturizado sin <i>UVS</i>.pdf')" target="_blank")
+        a.anexo(:href="obtenerLink('/downloads/texturizado_sin_UVS.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
@@ -57,7 +58,7 @@
                 iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
               .row.justify-content-center
                 .col-lg-7
-                  a.anexo(:href="obtenerLink('/downloads/Tiles en <i>Gimp</i>.pdf')" target="_blank")
+                  a.anexo(:href="obtenerLink('/downloads/Tiles_en_Gimp.pdf')" target="_blank")
                     .anexo__icono
                       img(src="@/assets/template/icono-pdf.svg")
                     .anexo__texto
@@ -71,7 +72,7 @@
                 iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
               .row.justify-content-center
                 .col-lg-9
-                  a.anexo(:href="obtenerLink('/downloads/<i>quick edit</i>.pdf')" target="_blank")
+                  a.anexo(:href="obtenerLink('/downloads/quick_edit.pdf')" target="_blank")
                     .anexo__icono
                       img(src="@/assets/template/icono-pdf.svg")
                     .anexo__texto
@@ -109,7 +110,7 @@
           iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.justify-content-center.mb-5
       .col-lg-6
-        a.anexo(:href="obtenerLink('/downloads/pbr faciles.pdf')" target="_blank")
+        a.anexo(:href="obtenerLink('/downloads/pbr_faciles.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
@@ -125,7 +126,7 @@
 
     .row.justify-content-center.mb-5
       .col-lg-6
-        a.anexo(:href="obtenerLink('/downloads/clonar texturas.pdf')" target="_blank")
+        a.anexo(:href="obtenerLink('/downloads/clonar_texturas.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
@@ -144,7 +145,7 @@
 
     .row.justify-content-center.mb-5
       .col-lg-9
-        a.anexo(:href="obtenerLink('/downloads/pintando en  <i>krita</i> .pdf')" target="_blank")
+        a.anexo(:href="obtenerLink('/downloads/pintando_en_krita.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
@@ -163,7 +164,7 @@
 
     .row.justify-content-center.mb-5
       .col-lg-7
-        a.anexo(:href="obtenerLink('/downloads/Mapas <i>UV</i> actualizados.pdf')" target="_blank")
+        a.anexo(:href="obtenerLink('/downloads/Mapas_UV_actualizados.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
@@ -183,7 +184,7 @@
 
     .row.justify-content-center.mb-5
       .col-lg-6
-        a.anexo(:href="obtenerLink('/downloads/proyección stencil.pdf')" target="_blank")
+        a.anexo(:href="obtenerLink('/downloads/proyección_stencil.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
@@ -200,7 +201,7 @@
 
     .row.justify-content-center.mb-5
       .col-lg-5
-        a.anexo(:href="obtenerLink('/downloads/paquetes de materiales.pdf')" target="_blank")
+        a.anexo(:href="obtenerLink('/downloads/paquetes_de_materiales.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
@@ -220,7 +221,7 @@
 
     .row.justify-content-center.mb-5
       .col-lg-7
-        a.anexo(:href="obtenerLink('/downloads/haind<i>painted</i>.pdf')" target="_blank")
+        a.anexo(:href="obtenerLink('/downloads/haindpainted.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
