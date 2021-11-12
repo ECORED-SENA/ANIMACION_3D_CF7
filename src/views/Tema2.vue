@@ -41,14 +41,14 @@
     p.mb-5 Pasar la información difusa que tiene un material, la cual está asignada a un objeto que posee una malla <i>UV</i>, lo que nos permite evitar una gran cantidad de nodos, al momento de adquirir el bake en una textura, puede ser consultado a través del siguiente video:
 
     figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      .video      
+        iframe(width="1255" height="706" src="https://www.youtube.com/embed/_duhwThi9RA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     p.mb-5 Se pueden adquirir los detalles de alta densidad que se han realizado en un <i>high</i> <i>poly</i> a su <i>low</i> <i>poly</i> similar, esto con la finalidad de evitar la gran cantidad de vértices que tiene un objeto de alta densidad, al lado de uno de bajo poligonaje. Una explicación más amplia a este respecto, podrá consultarla a través del video que encuentra a continuación:
 
     figure
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      .video      
+        iframe(width="1255" height="706" src="https://www.youtube.com/embed/l7WoGD7Vgyg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 
 </template>

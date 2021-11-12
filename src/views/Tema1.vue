@@ -54,8 +54,8 @@
             td.p-4(colspan=3)
               p.mb-4 Para generar una textura a partir de una imagen, que se repita y sin que se noten los cortes, así mismo puede ser utilizado para cubrir grandes extensiones de geometría sin generar una textura única enorme, sino, que se trabaja la unión de varias texturas más pequeñas pero que parezca un todo, utilizaremos el <i>software</i> de edición fotográfica y dibujo <i>Gimp</i> de distribución libre. 
               p.mb-4 Para entender el proceso de generar módulos o tiles en <i>Gimp</i>, sin corte o <i>seams</i>, le invitamos a consultar el siguiente video ilustrativo: 
-              .video.mb-5
-                iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              .video.mb-5              
+                iframe(width="1255" height="706" src="https://www.youtube.com/embed/R7jAV01NSdM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
               .row.justify-content-center
                 .col-lg-7
                   a.anexo(:href="obtenerLink('/downloads/Tiles_en_Gimp.pdf')" target="_blank")
@@ -68,8 +68,8 @@
             td.p-4(colspan=3)
               p.mb-4 Podemos usar <i>software</i> externo de edición de imágenes, para agregar detalles a nuestros objetos, y pintarles elementos de color y texturas, enlazando  <i>Blender</i> con el <i>software</i> de tu elección, para ello instalaremos un <i>addon</i>. 
               p.mb-4 Para entender el proceso de agregar desde el editor externo (pintado de textura con <i>quick edit</i>), le invitamos a consultar el siguiente video ilustrativo:
-              .video.mb-5
-                iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              .video.mb-5              
+                iframe(width="1255" height="706" src="https://www.youtube.com/embed/4ve8Z3Nsfg0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
               .row.justify-content-center
                 .col-lg-9
                   a.anexo(:href="obtenerLink('/downloads/quick_edit.pdf')" target="_blank")
@@ -82,8 +82,8 @@
             td.p-4(colspan=3)
               p.mb-4  <i>Blender</i> puede utilizar <i>plugins</i> y <i>addons</i> para ampliar sus capacidades a la hora de desarrollar proyectos de animación y modelado, en este caso utilizaremos el <i>addon</i> <i>Flow</i> <i>map</i>, con el cual podremos crear de manera rápida y efectiva, fuentes hídricas en movimiento.
               p.mb-4 Para entender el proceso de pintar agua fluida con <i>addon</i> <i>Flow</i> <i>Map</i> le invitamos a consultar el siguiente video:
-              .video.mb-5
-                iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              .video.mb-5              
+                iframe(width="1255" height="706" src="https://www.youtube.com/embed/NhyW6P0Vc1o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
               .row.justify-content-center
                 .col-lg-8
                   a.anexo(:href="obtenerLink('/downloads/flowmap.pdf')" target="_blank")
@@ -103,11 +103,11 @@
 
     LineaTiempoD.color-secundario.mb-5
       div(numero="1" titulo="<i>Node</i> <i>Wrangler</i>")
-        .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        .video          
+          iframe(width="1255" height="706" src="https://www.youtube.com/embed/G0I9FnNtjzE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       div(numero="2" titulo="<i>PBR</i> Metálico")
-        .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        .video        
+          iframe(width="1255" height="706" src="https://www.youtube.com/embed/qG3f1VwamyI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.justify-content-center.mb-5
       .col-lg-6
         a.anexo(:href="obtenerLink('/downloads/pbr_faciles.pdf')" target="_blank")
@@ -140,8 +140,8 @@
 
     p.mb-5 Con  <i>Blender</i> tenemos la posibilidad de utilizar <i>software</i> externo de edición de imágenes, para poder pintar y/o texturizar nuestros objetos, para ello veremos el método de exportar las <i>uvs</i> para su implementación en el <i>software</i> de edición  <i>Krita</i> . La manera de hacerlo, la veremos en el siguiente video en donde encontrará una amplia explicación al respecto:    
 
-    .video.mb-5
-      iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    .video.mb-5    
+      iframe(width="1255" height="706" src="https://www.youtube.com/embed/vEEx0O8m2dA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .row.justify-content-center.mb-5
       .col-lg-9
@@ -159,8 +159,8 @@
 
     p.mb-5 En  <i>Blender</i> los objetos con <i>uvs</i> en ocasiones pueden presentar problemas a la hora de mostrar las texturas, pero esto puede resolverse de manera sencilla activando ciertos parámetros, el método para hacerlo lo veremos en el video a continuación:
 
-    .video.mb-5
-      iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    .video.mb-5    
+      iframe(width="1255" height="706" src="https://www.youtube.com/embed/tTk0hrowrHg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .row.justify-content-center.mb-5
       .col-lg-7
@@ -177,10 +177,10 @@
       div.ms-3.d-flex.align-items-center
         h2.my-0.py-0 Proyectar esténcil con  <i>skinwrap</i> 
 
-    p.mb-5 Con  <i>Blender</i> podemos utilizar el <i>addon</i> image as planes para traer imágenes png y utilizarlos como esténcil o  <i>stickers</i> , el método para hacerlo lo veremos en el siguiente video:
+    p.mb-5 Con  <i>Blender</i> podemos utilizar el <i>addon</i> <i>image as planes</i> para traer imágenes png y utilizarlos como esténcil o  <i>stickers</i> , el método para hacerlo lo veremos en el siguiente video:
 
-    .video.mb-5
-      iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    .video.mb-5    
+      iframe(width="1255" height="706" src="https://www.youtube.com/embed/OAp3z_TuLzk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .row.justify-content-center.mb-5
       .col-lg-6
@@ -216,8 +216,8 @@
 
     p.mb-5 Para texturizar en  <i>Blender</i>, disponemos de varios métodos, uno de ellos, es el llamativo método de <i>hand</i><i>painted</i> que, como su nombre lo indica es una forma de pintar que parece a mano, y utilizando las herramientas de texturizado, produce un estilo visual interesante. En el siguiente video podrá observar la forma de utilizarla.
 
-    .video.mb-5
-      iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    .video.mb-5    
+      iframe(width="1255" height="706" src="https://www.youtube.com/embed/JiQTu-aet-4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .row.justify-content-center.mb-5
       .col-lg-7

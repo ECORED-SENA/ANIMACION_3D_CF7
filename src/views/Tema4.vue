@@ -121,8 +121,8 @@
     p.mb-5 El nodo <i>principled</i> BSDF tiene varios parámetros, que se encuentran en diferentes <i>shader</i>, no solo en este, por ello es importante aprender a dominarlo, y mirar cada una de sus características, lo que puede facilitar la creación de diferentes materiales. Su aplicación, características y uso puede visualizarse en el siguiente video:
 
     figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)    
+      .video      
+        iframe(width="1255" height="706" src="https://www.youtube.com/embed/KWdwzDS_Zsk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)    
 
     div.imagen-fondo.mb-5(:style="{'background-image': `url(${require('@/assets/curso/tema4/img14.png')})`}")
       p.text-center <b>La siguiente figura indica cómo se encuentra el nodo en el monitor de trabajo:</b>
