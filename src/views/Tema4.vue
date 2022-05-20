@@ -23,7 +23,7 @@
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
-            p <b>Video.</b> El <i><i>shadin</i>g</i> o sombreado, se refiere a la representación de la percepción de profundidad en modelos 3D o ilustraciones, variando el nivel de oscuridad. Le invitamos a consultar el video tutorial de materiales en esteenlace.
+            p <b>Video.</b> El <i>shading</i> o sombreado, se refiere a la representación de la percepción de profundidad en modelos 3D o ilustraciones, variando el nivel de oscuridad. Le invitamos a consultar el video tutorial de materiales en este enlace.
 
 
     .row.justify-content-center.mb-5
@@ -31,7 +31,7 @@
         p.mb-0 Un <i>shader</i> determina como un objeto es afectado por la luz, esta puede rebotar sobre el objeto, como un elemento metálico, la plata, el oro, el bronce, a diferencia de un elemento dieléctrico (material con una baja conductividad eléctrica; es decir; un aislante), en el que la luz puede rebotar, pero también refractar, es decir la luz logra atravesar el objeto. Estos objetos pueden ser el plástico, la tela, la cerámica, entre otros. El fenómeno de refracción y reflexión pueden observarse en las figuras 4, y 5.
 
     .row.justify-content-center.mb-5
-      .col-lg-5
+      .col-lg-5.mb-4
         div.BorTit.mb-3
           p.mb-0 <b>Figura 4</b>
           i Refracción
@@ -152,7 +152,7 @@
 
     LineaTiempoD.color-primario.tema3-linea.mb-5
       div(numero="1" titulo="<i>Principled</i> <i>hair</i> BSDF ")
-        p.mb-5 Este <i>shader</i> se diferencia del <i>hair</i>, en que puede renderizar pieles y cabello, permitiendo variar las tonalidades de cada hebra, con el control de la melanina, el color, la rugosidad, la rugosidad radial, la capa, y el tinte. El abanico es muy amplio, en cuanto al comportamientos de los colores y la luz sobre el cabello, controlando así la rugosidad y el rebote. 
+        p.mb-5 Este <i>shader</i> se diferencia del <i>hair</i>, en que puede renderizar pieles y cabello, permitiendo variar las tonalidades de cada hebra, con el control de la melanina, el color, la rugosidad, la rugosidad radial, la capa, y el tinte. El abanico es muy amplio, en cuanto al comportamiento de los colores y la luz sobre el cabello, controlando así la rugosidad y el rebote. 
         .row.justify-content-center.mb-5
           .col-lg-9
             figure
@@ -216,7 +216,7 @@
               img(src='@/assets/curso/tema4/img24.png')
 
       div(numero="10" titulo="<i>Volume <i>scatter</i></i>")
-        p.mb-5 Este <i>shader</i> más el nodo <i>volume</i> <i>absorption</i>, y el nodo <i>volume</i> <i>scatter</i> permite que la luz se disperse a medida que atraviesa el volumen. el uso típico sería agregar niebla a una escena. también se puede utilizar con el nodo de absorción de volumen para crear humo.
+        p.mb-5 Este <i>shader</i> más el nodo <i>volume</i> <i>absorption</i>, y el nodo <i>volume</i> <i>scatter</i> permite que la luz se disperse a medida que atraviesa el volumen. el uso típico sería agregar niebla a una escena. También se puede utilizar con el nodo de absorción de volumen para crear humo.
         .row.justify-content-center.mb-5  
           .col-lg-3
             figure

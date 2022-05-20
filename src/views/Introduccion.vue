@@ -9,7 +9,7 @@
           i.fas.fa-info
       h1 Introducción
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center
       .col-lg-8.d-flex.align-items-center
         div.introduccion-div1.py-5
           .row.justify-content-end
@@ -19,8 +19,7 @@
               p.mb-0 <b>¡Bienvenido!</b>
       .col-lg-4
         figure
-          img(src='@/assets/curso/introduccion/img01.png') 
-    
+          img(src='@/assets/curso/introduccion/img01.png')
     
 </template>
 

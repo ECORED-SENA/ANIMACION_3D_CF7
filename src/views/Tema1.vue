@@ -27,7 +27,7 @@
       div.ms-3.d-flex.align-items-center
         h2.my-0.py-0 Texturizado sin <i>UVS</i> (Adecuado para elementos de fondo) 
   
-    p.mb-4 Para iniciar el texturizado del objeto en  <i>Blender</i> disponemos de varias herramientas, para su óptimo uso, primero veremos cómo aplicar materiales o texturas a un objeto, sin la necesidad de uso de <i>uvs,</i> este método no es el más indicado, pero funciona muy bien para objetos que están de fondo, en los cuales no hay mucho tiempo para invertir. 
+    p.mb-4 Para iniciar el texturizado del objeto en  <i>Blender</i> disponemos de varias herramientas, para su óptimo uso, primero veremos cómo aplicar materiales o texturas a un objeto, sin la necesidad de uso de <i>UVS</i>, este método no es el más indicado, pero funciona muy bien para objetos que están de fondo, en los cuales no hay mucho tiempo para invertir. 
     p.mb-4 <b>A través del siguiente video puede consultar cómo es la aplicación del método:</b> 
 
     figure.mb-5
@@ -48,7 +48,7 @@
           tr
             th.p-5 Objetos nativos con <i>UVS</i>
             td.p-4(colspan=3) 
-              p.mb-0 Los objetos nativos los encontramos en la pestaña ADD, como dato adicional todos ellos traen ya <i>uvs</i> definidas, para ver esto, simplemente agregamos un objeto al escenario y le activamos el <i>Generated</i> <i>UVS</i>, esto es muy necesario si queremos realizar modelado rápido de objetos como paredes torres y elementos simples, para que tengamos la facilidad de pintar sus texturas de manera fácil y rápida.            
+              p.mb-0 Los objetos nativos los encontramos en la pestaña ADD, como dato adicional todos ellos traen ya <i>UVS</i> definidas, para ver esto, simplemente agregamos un objeto al escenario y le activamos el <i>Generated</i> <i>UVS</i>, esto es muy necesario si queremos realizar modelado rápido de objetos como paredes torres y elementos simples, para que tengamos la facilidad de pintar sus texturas de manera fácil y rápida.            
           tr
             th.p-5 Generar módulos o tiles en <i>Gimp</i>, sin cortes o <i>seams</i>
             td.p-4(colspan=3)
@@ -138,7 +138,7 @@
       div.ms-3.d-flex.align-items-center
         h2.my-0.py-0 Pintando texturas en programas externos
 
-    p.mb-5 Con  <i>Blender</i> tenemos la posibilidad de utilizar <i>software</i> externo de edición de imágenes, para poder pintar y/o texturizar nuestros objetos, para ello veremos el método de exportar las <i>uvs</i> para su implementación en el <i>software</i> de edición  <i>Krita</i> . La manera de hacerlo, la veremos en el siguiente video en donde encontrará una amplia explicación al respecto:    
+    p.mb-5 Con  <i>Blender</i> tenemos la posibilidad de utilizar <i>software</i> externo de edición de imágenes, para poder pintar y/o texturizar nuestros objetos, para ello veremos el método de exportar las <i>UVS</i> para su implementación en el <i>software</i> de edición  <i>Krita</i> . La manera de hacerlo, la veremos en el siguiente video en donde encontrará una amplia explicación al respecto:    
 
     .video.mb-5    
       iframe(width="1255" height="706" src="https://www.youtube.com/embed/vEEx0O8m2dA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -157,7 +157,7 @@
       div.ms-3.d-flex.align-items-center
         h2.my-0.py-0 Mapas <i>UV</i> actualizados
 
-    p.mb-5 En  <i>Blender</i> los objetos con <i>uvs</i> en ocasiones pueden presentar problemas a la hora de mostrar las texturas, pero esto puede resolverse de manera sencilla activando ciertos parámetros, el método para hacerlo lo veremos en el video a continuación:
+    p.mb-5 En  <i>Blender</i> los objetos con <i>UVS</i> en ocasiones pueden presentar problemas a la hora de mostrar las texturas, pero esto puede resolverse de manera sencilla activando ciertos parámetros, el método para hacerlo lo veremos en el video a continuación:
 
     .video.mb-5    
       iframe(width="1255" height="706" src="https://www.youtube.com/embed/tTk0hrowrHg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)

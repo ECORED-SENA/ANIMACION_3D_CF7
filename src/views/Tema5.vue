@@ -26,7 +26,7 @@
       p.mb-5 Es un formato enfocado principalmente, para exportar animaciones de personajes y además es compatible con otros <i>software</i>s como <i>Autodesk</i> 3ds Max, Cinema 4D, Maya, <i>Wings</i> 3D y motores como <i>Unity</i> 3D, <i>Unreal Engine</i>. Desde  <i>Blender</i> podemos exportar nuestros modelos 3D para que conserven las texturas y poder trabajarlos en otros programas en caso de ser necesario, para ello disponemos del tipo de archivo FBX.fbx, el cual empaqueta las texturas junto al modelo, para realizar dicha exportación debemos asegurarnos en  <i>Blender</i> que nuestro modelo tiene aplicadas las texturas y materiales, luego nos vamos a <i>file-export</i> fbx y seleccionamos la opción “<i>selected objects</i>” con ello exportamos solo lo que hemos elegido, cambiamos el parámetro “<i>path mode</i>” a copy y activamos <i>embed texture</i>s, de esta manera los archivos estarán aptos para ser trasladados junto a sus texturas, como se muestra en la siguiente figura:
     
       .row.justify-content-center
-        .col-8
+        .col-lg-8
           div.BorTit.mb-3
             p.mb-0 <b>Figura 9</b>
             i FBX
@@ -43,7 +43,7 @@
 
     div.imagen-fondo.mb-5(:style="{'background-image': `url(${require('@/assets/curso/tema5/img03.png')})`}")
       .row.justify-content-center.mb-5
-        .col-3
+        .col-lg-3
           div.BorTit.mb-3
             p.mb-0 <b>Figura 10</b>
             i OBJ
@@ -66,9 +66,8 @@
 
       p.mb-4 Desde las <i>UV</i> podemos guardar las imágenes como png, svg y eps, lo cual se puede hacer desde el uv editor, tener seleccionado el objeto que contiene su uv en modo Edición, luego ir a uv y exportar uv <i>Layout</i>.
       p.mb-0 Los PNG son el formato por defecto de  <i>Blender</i>, este formato tiene como característica, que puede guardar la información de transparencia, si es el caso que se use, esto con la finalidad de post producir la imagen, y poder hacer montajes con ella. A diferencia de los JPG que mantienen siempre la imagen completa, así el objeto renderizado tenga transparencias.
-
-    .row.justify-content-center.mb-5
-      .col-8
+    .row.justify-content-center
+      .col-lg-8
         div.BorTit.mb-3
           p.mb-0 <b>Figura 11</b>
           i Exportación desde <i>UV</i> editor

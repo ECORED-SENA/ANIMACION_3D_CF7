@@ -11,14 +11,14 @@ figcaption
   margin-top: 4px
 
 .introduccion-div1
-  background: rgba(232,236,216,1);
-  background: -moz-linear-gradient(left, rgba(232,236,216,1) 0%, rgba(237,227,205,1) 41%, rgba(255,255,255,1) 100%);
-  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(232,236,216,1)), color-stop(41%, rgba(237,227,205,1)), color-stop(100%, rgba(255,255,255,1)));
-  background: -webkit-linear-gradient(left, rgba(232,236,216,1) 0%, rgba(237,227,205,1) 41%, rgba(255,255,255,1) 100%);
-  background: -o-linear-gradient(left, rgba(232,236,216,1) 0%, rgba(237,227,205,1) 41%, rgba(255,255,255,1) 100%);
-  background: -ms-linear-gradient(left, rgba(232,236,216,1) 0%, rgba(237,227,205,1) 41%, rgba(255,255,255,1) 100%);
-  background: linear-gradient(to right, rgba(232,236,216,1) 0%, rgba(237,227,205,1) 41%, rgba(255,255,255,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8ecd8', endColorstr='#ffffff', GradientType=1 );
+  background: rgba(232,236,216,1)
+  background: -moz-linear-gradient(left, rgba(232,236,216,1) 0%, rgba(237,227,205,1) 41%, rgba(255,255,255,1) 100%)
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(232,236,216,1)), color-stop(41%, rgba(237,227,205,1)), color-stop(100%, rgba(255,255,255,1)))
+  background: -webkit-linear-gradient(left, rgba(232,236,216,1) 0%, rgba(237,227,205,1) 41%, rgba(255,255,255,1) 100%)
+  background: -o-linear-gradient(left, rgba(232,236,216,1) 0%, rgba(237,227,205,1) 41%, rgba(255,255,255,1) 100%)
+  background: -ms-linear-gradient(left, rgba(232,236,216,1) 0%, rgba(237,227,205,1) 41%, rgba(255,255,255,1) 100%)
+  background: linear-gradient(to right, rgba(232,236,216,1) 0%, rgba(237,227,205,1) 41%, rgba(255,255,255,1) 100%)
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8ecd8', endColorstr='#ffffff', GradientType=1 )
 
 .blender
   width: 35.26px
@@ -111,10 +111,23 @@ a.tema4.anexo
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#be3d38', endColorstr='#e3c49f', GradientType=1 );
 
 .bloque-texto-g-inv .bloque-texto-g__img 
-  left: 50% !important
+  left: 50%
 
 .bloque-texto-g-inv .bloque-texto-g__texto
-  left: -40% !important
+  left: -40%
   
+@media screen and (max-width: 1200px)
 
-    
+  .bloque-texto-g-inv .bloque-texto-g__img
+    left: -50px
+
+  .bloque-texto-g-inv .bloque-texto-g__texto
+    left: 0px
+
+@media screen and (max-width: 991px)
+
+  .bloque-texto-g-inv .bloque-texto-g__img
+    left: 0px
+
+  .bloque-texto-g-inv .bloque-texto-g__texto
+    left: 0px

@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Texturizado',
     descripcionCurso:
-      'Este componente trabaja sobre las técnicas de texturizado de los elementos 3D, el <i>Bakeo</i> de mapas, a partir de los <i><i>shader</i>s</i> y de la geometría de alto poligonaje a un <i>low</i> <i>poly</i>. Así mismo, sobre los tipos de <i><i>shader</i>s</i>, y los elementos de exportación. ',
+      'Este componente trabaja sobre las técnicas de texturizado de los elementos 3D, el <i>Bakeo</i> de mapas, a partir de los <i>shaders</i> y de la geometría de alto poligonaje a un <i>low</i> <i>poly</i>. Así mismo, sobre los tipos de <i>shaders</i>, y los elementos de exportación.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
@@ -315,7 +315,17 @@ export default {
     ],
     gestoresRepositorio: [
       {
-        nombre: 'Milady Tatiana Villamil Castellanos',
+        nombre: 'Andrés Camilo Penagos Beltran',
+        cargo: 'Validación y vinculación en plataforma LMS',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Jhon Fredy Rodriguez Castiiblanco',
+        cargo: 'Validación y vinculación en plataforma LMS',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Jose Daniel Guerrero Lievano',
         cargo: 'Validación y vinculación en plataforma LMS',
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
